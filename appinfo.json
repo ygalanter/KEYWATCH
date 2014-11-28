@@ -1,0 +1,38 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "yuri@galanter.net",
+    "longName": "KeyWatch",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "compatibility": "2.7",
+                "file": "fonts/lucon.ttf",
+                "name": "LUCIDA_CONCOLE_REGULAR_17",
+                "trackingAdjust": 12,
+                "type": "font"
+            },
+            {
+                "file": "images/keywatch.png",
+                "name": "IMAGE_BG",
+                "type": "png"
+            },
+            {
+                "file": "images/keywatch_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "KeyWatch",
+    "uuid": "5a3efc59-f35e-464b-bf91-cdc1cea458b1",
+    "versionCode": 1,
+    "versionLabel": "1.4",
+    "watchapp": {
+        "watchface": true
+    }
+}
