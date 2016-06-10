@@ -1,6 +1,6 @@
 #include <pebble.h>
 #include <ctype.h>
-#include "effect_layer.h"
+#include <pebble-effect-layer/pebble-effect-layer.h>
   
 static Window *s_window;
 static GBitmap *s_res_image_bg;

@@ -1,0 +1,49 @@
+{
+    "author": "yuri@galanter.net",
+    "dependencies": {
+        "pebble-effect-layer": "^1.1.1"
+    },
+    "keywords": [],
+    "name": "keywatch",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "KeyWatch",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/keywatch.png",
+                    "name": "IMAGE_BG",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/keywatch_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU",
+                    "type": "bitmap"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/lucon.ttf",
+                    "name": "LUCIDA_CONCOLE_REGULAR_17",
+                    "trackingAdjust": 12,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "5a3efc59-f35e-464b-bf91-cdc1cea458b1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.6.0"
+}
